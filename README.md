@@ -4,18 +4,16 @@
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `dinos` to your list of dependencies in `mix.exs`:
+Start container with command
+```bash
+./start_docker.sh
+```
+After enter in container
+`docker exec -it dinos bash`
+
+## Running
+`iex -S mix`
 
 ```elixir
-def deps do
-  [
-    {:dinos, "~> 0.1.0"}
-  ]
-end
+> Dinos.start()
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/dinos](https://hexdocs.pm/dinos).
-
