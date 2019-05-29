@@ -15,5 +15,8 @@ After enter in container
 `iex -S mix`
 
 ```elixir
-> Dinos.start()
+> Dinos.classify()
 ```
+
+## Tests
+`mix test`
